@@ -1,17 +1,14 @@
 :root {font-family: 'Poppins', sans-serif;
     line-height: 1.5;
     font-weight: 400;
-
     color-scheme: #000;
     background-color: #242424;
-
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
   }
-
   * {
     box-sizing: border-box;
   }
@@ -27,7 +24,6 @@
     align-items:center;
     justify-content: center;
   }
-
   #highlight {
     position: absolute;
     border: 1px solid #fff;
@@ -98,7 +94,7 @@
     height: 233px;
     border-radius: 20px;
     padding: 24px 30px 30px;
-     background:  linear-gradient(to right bottom, #7bc284, #38523a);
+     background:  linear-gradient(to right bottom, #6c3c75, #b070bd);
     box-shadow:0px 12px 50px -15px rgba(50,55,63,.66);
     color: #fff;
     overflow: hidden;
@@ -117,7 +113,6 @@
   svg{
     width: 40px;
   }
-
 
   .card__back {
     position: absolute;
@@ -160,11 +155,11 @@
   .card__hide_line {
     height: 40px;
     width: 100%;
-    background-color:rgb(131, 173, 145) ;
+    background: url(imgs/img.jpg);
     position: relative;
     z-index: 1;
   }
-  /* #6b7280 */
+
   .card_cvv {
     position: relative;
     z-index: 1;
@@ -204,7 +199,6 @@
   }
 
   .card__number {
-    /* word-spacing: 10px; */
     font-size: 22px;
     margin-bottom: 32px;
     position: relative;
@@ -261,7 +255,6 @@
   }
 .form-body{
   margin-top: 105px;
-
 }
   label {
     display: block;
